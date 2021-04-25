@@ -1,0 +1,17 @@
+header{
+    margin: 0;
+    padding: 0;
+    background: url("assets/backgrounds/landing.jpg");
+    background-size: cover;
+}
+
+.logo{
+    color: white;
+    text-align: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
