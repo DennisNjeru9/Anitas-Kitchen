@@ -1,13 +1,16 @@
 header{
     margin: 0;
     padding: 0;
-    background: url("assets/backgrounds/landing.jpg");
+    background: url("assets/backgrounds/landing.jpg"); height: 500px;
     background-size: cover;
 }
 
 .logo{
     color: white;
     text-align: center;
+    font-size: xx-large;
+    font-weight: 50;
+    margin-top: 30px;
 }
 
 #logo{
@@ -44,23 +47,21 @@ header{
 }
 
 .happy{
+    background-color: gray;
     color: #000000;
     font-size: xx-large;
 }
 
 .party{
+    background-color: #f15a29;
     color: #ffffff;
     font-size: xx-large;
 }
 
-.foodtop{
+#header-items{
     display: flex;
 }
 
-#row{
-    display: flex;
-    flex-direction: column;
-}
 
 .fastfood{
     float: right;
@@ -75,6 +76,7 @@ header{
     justify-content: space-evenly;
     margin: 10px;
     border-radius: inherit;
+    width: 60%;
 }
 
 footer{
@@ -82,7 +84,7 @@ footer{
 }
 
 #subscribe{
-    background-image: url("assets/backgrounds/subscribe.jpg");
+    background-image: url("assets/backgrounds/subscribe.jpg"); height: 150px;
     color: white;
 }
 
@@ -94,4 +96,10 @@ footer{
 
 #socialmedia{
     background-color: #f15a29;
+    color: white;
+}
+
+#content-3{
+    background: url("assets/backgrounds/foodsBg.jpg");
+    color: red;
 }
