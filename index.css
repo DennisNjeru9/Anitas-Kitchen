@@ -15,3 +15,49 @@ header{
     justify-content: center;
 }
 
+.break{
+    background: url("assets/foodtop/breakfast.jpg"); height: 200px; width: 300px;
+    background-size: auto;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.lunch{
+    background: url("assets/foodtop/lunch.jpg"); height: 200px; width: 300px;
+    background-size: auto;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.dinner{
+    background: url("assets/foodtop/dinner.jpg"); height: 200px; width: 300px;
+    background-size: auto;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.happy{
+    color: #000000;
+    font-size: xx-large;
+}
+
+.party{
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+.foodtop{
+    display: flex;
+}
+
+#row{
+    display: flex;
+    flex-direction: column;
+}
