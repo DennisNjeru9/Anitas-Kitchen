@@ -61,3 +61,22 @@ header{
     display: flex;
     flex-direction: column;
 }
+
+.fastfood{
+    float: right;
+}
+
+.drinks{
+    float: left;
+}
+
+#customers{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-radius: inherit;
+}
+
+footer{
+    text-align: center;
+}
