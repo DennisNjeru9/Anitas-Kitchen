@@ -34,3 +34,10 @@ h3{
 #fast{
     padding-right: 20px;
 }
+
+a{
+    padding: 20px;
+    background-color: white;
+    color: red;
+    border: red;
+}
