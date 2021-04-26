@@ -5,10 +5,12 @@ body{
 
 #content-1{
     display: flex;
+    margin: 50px;
 }
 
 #content-2{
     display: flex;
+    margin: 50px;
 }
 
 ul{
