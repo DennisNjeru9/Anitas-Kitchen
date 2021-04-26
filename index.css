@@ -71,12 +71,12 @@ header{
     float: left;
 }
 
-#customers{
+p.customers{
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
-    border-radius: inherit;
-    width: 60%;
+    justify-content: center;
+    margin: 20px 80px 20px 80px;
+    
+    
 }
 
 footer{
@@ -84,22 +84,33 @@ footer{
 }
 
 #subscribe{
-    background-image: url("assets/backgrounds/subscribe.jpg"); height: 150px;
+    background-image: url("assets/backgrounds/subscribe.jpg"); height: 300px;
     color: white;
 }
 
-#email{
+footer.email{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0,0,0, 20px;
 }
 
 #socialmedia{
     background-color: #f15a29;
     color: white;
+    height: 100px;
 }
 
 #content-3{
-    background: url("assets/backgrounds/foodsBg.jpg");
+    background: url("assets/backgrounds/foodsBg.jpg"); height: 500px;
     color: red;
+    display: flex;
+    justify-content:center;
+}
+#sub{
+    font-size: xx-large;
+}
+
+#copyright{
+    color: white;
+
 }
