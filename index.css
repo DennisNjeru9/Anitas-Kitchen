@@ -1,0 +1,116 @@
+header{
+    margin: 0;
+    padding: 0;
+    background: url("assets/backgrounds/landing.jpg"); height: 500px;
+    background-size: cover;
+}
+
+.logo{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 50;
+    margin-top: 30px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+.break{
+    background: url("assets/foodtop/breakfast.jpg"); height: 200px; width: 300px;
+    background-size: auto;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.lunch{
+    background: url("assets/foodtop/lunch.jpg"); height: 200px; width: 300px;
+    background-size: auto;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.dinner{
+    background: url("assets/foodtop/dinner.jpg"); height: 200px; width: 300px;
+    background-size: auto;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.happy{
+    background-color: gray;
+    color: #000000;
+    font-size: xx-large;
+}
+
+.party{
+    background-color: #f15a29;
+    color: #ffffff;
+    font-size: xx-large;
+}
+
+#header-items{
+    display: flex;
+}
+
+
+.fastfood{
+    float: right;
+}
+
+.drinks{
+    float: left;
+}
+
+p.customers{
+    display: flex;
+    justify-content: center;
+    margin: 20px 80px 20px 80px;
+    
+    
+}
+
+footer{
+    text-align: center;
+}
+
+#subscribe{
+    background-image: url("assets/backgrounds/subscribe.jpg"); height: 300px;
+    color: white;
+}
+
+footer.email{
+    display: flex;
+    justify-content: center;
+    margin: 0,0,0, 20px;
+}
+
+#socialmedia{
+    background-color: #f15a29;
+    color: white;
+    height: 100px;
+}
+
+#content-3{
+    background: url("assets/backgrounds/foodsBg.jpg"); height: 500px;
+    color: red;
+    display: flex;
+    justify-content:center;
+}
+#sub{
+    font-size: xx-large;
+}
+
+#copyright{
+    color: white;
+
+}

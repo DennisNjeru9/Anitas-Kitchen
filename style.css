@@ -1,0 +1,21 @@
+body{
+    margin: 20px auto 20px auto;
+    width: 80%;
+}
+
+#content-1{
+    display: flex;
+}
+
+#content-2{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: red;
+}
