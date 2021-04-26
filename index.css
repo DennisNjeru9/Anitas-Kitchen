@@ -65,10 +65,15 @@ header{
 
 .fastfood{
     float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 350px;
 }
 
 .drinks{
     float: left;
+
 }
 
 footer{
