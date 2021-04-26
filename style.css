@@ -19,3 +19,8 @@ ul{
 h3{
     color: red;
 }
+
+.customers{
+    display: inherit;
+    justify-content: space-around;
+}

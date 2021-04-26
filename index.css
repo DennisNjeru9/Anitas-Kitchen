@@ -71,14 +71,6 @@ header{
     float: left;
 }
 
-p.customers{
-    display: flex;
-    justify-content: center;
-    margin: 20px 80px 20px 80px;
-    
-    
-}
-
 footer{
     text-align: center;
 }
@@ -113,4 +105,16 @@ footer.email{
 #copyright{
     color: white;
 
+}
+
+div.menu{
+    width:35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+.our, .about{
+    border: 3px solid black;
+    margin:50px
 }
