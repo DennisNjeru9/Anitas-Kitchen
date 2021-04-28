@@ -95,16 +95,42 @@ footer{
     color: white;
 }
 
-.email{
+.mailsub{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    margin: 0,0,0, 20px;
+}
+
+#your{
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    font-size: larger;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+}
+
+#scribe{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-size: larger;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 3px;
 }
 
 #socialmedia{
     background-color: #f15a29;
     color: white;
-    height: 100px;
+    height: 70px;
+    padding-top: 40px;
+}
+
+.socialmedia{
+    background-color: #f15a29;
 }
 
 #content-3{
@@ -123,23 +149,25 @@ footer{
 
 }
 
-div.menu{
+#menu{
     width:35px;
-    height: 5px;
+    height: 10px;
     background-color: white;
-    margin: 6px 0;
+    margin: 8px 0;
 }
 
 #our{
-   padding: 0 0 0 60px;
+   padding: 0 60px 0 60px;
    text-align: center;
    background-color: white;
 }
 
 #about{
-    padding: 0 60px 0 120px;
+    padding: 0 60px 0 100px;
+    margin-right: 50px;
     text-align: center;
     background-color: white;
+    border-left: 1px solid gray;
 
 }
 
