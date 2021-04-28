@@ -5,12 +5,12 @@ body{
 
 #content-1{
     display: flex;
-    margin: 50px 200px 50px 200px;
+    margin: 50px 250px 50px 250px;
 }
 
 #content-2{
     display: flex;
-    margin: 50px 200px 50px 200px;
+    margin: 50px 250px 50px 250px;
 }
 
 ul{
@@ -28,11 +28,11 @@ h3{
 }
 
 #drinks{
-    padding-right: 20px;
+    padding-right: 30px;
 }
 
 #fast{
-    padding-right: 20px;
+    padding-left: 30px;
 }
 
 a{
@@ -40,4 +40,22 @@ a{
     background-color: white;
     color: red;
     border: red;
+}
+
+.chicken{
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px;
+}
+
+.beef{
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px;
+}
+
+.pizza{
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px;
 }

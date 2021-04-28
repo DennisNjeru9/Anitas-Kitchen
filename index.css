@@ -63,12 +63,10 @@ header{
 }
 
 
-.fastfood{
-    float: right;
+img.fastfood{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 350px;
 }
 
 .drinks{
