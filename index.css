@@ -46,22 +46,33 @@ header{
     text-align: center;
 }
 
-.happy{
+#happy{
     background-color: gray;
     color: #000000;
     font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    text-align: center;
 }
 
-.party{
+#party{
     background-color: #f15a29;
     color: #ffffff;
     font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    text-align: center;
 }
 
-#header-items{
+.foodtop{
     display: flex;
 }
 
+.happy{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
 
 .food{
     margin-top: 50px;
