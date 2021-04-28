@@ -1,21 +1,84 @@
 body{
     margin: 20px auto 20px auto;
     width: 80%;
-}
-
-#content-1{
-    display: flex;
+    background-color: whitesmoke;
 }
 
 #content-2{
     display: flex;
-}
-
-ul{
-    display: flex;
-    justify-content: space-around;
+    margin: 50px 250px 50px 250px;
 }
 
 h3{
     color: red;
+}
+
+.customers{
+    margin:50px 200px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#drinks{
+    padding-right: 30px;
+}
+
+a{
+    margin-top:10px;
+    padding: 20px;
+    background-color: white;
+    color: red;
+    border: red;
+}
+
+.chicken{
+    margin-top: 100px;
+    margin-left: 120px;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+}
+
+.beef{
+    margin-top: 100px;
+    background-color: white;
+    padding: 50px 50px 50px 60px; 
+}
+
+.pizza{
+    margin-top: 100px;
+    margin-right: 140px;
+    background-color: white;
+    padding: 50px 50px 50px 60px;
+}
+
+#fast{
+   padding: 20px 20px 0;
+   background-color: white;
+}
+
+#food{
+    padding: 0 20px 20px;
+    background-color: white;
+}
+
+#fastfood{
+    display: flex;
+    margin: 50px 250px 50px 250px;
+}
+
+#delicious{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right:50px
+}
+
+#straw{
+    padding: 20px 0 20px 20px;
+    background-color: white;
+}
+.straw{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: white;
 }

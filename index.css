@@ -46,37 +46,43 @@ header{
     text-align: center;
 }
 
-.happy{
+#happy{
     background-color: gray;
     color: #000000;
     font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    text-align: center;
 }
 
-.party{
+#party{
     background-color: #f15a29;
     color: #ffffff;
     font-size: xx-large;
+    padding-top: 30px;
+    padding-bottom: 33px;
+    text-align: center;
 }
 
-#header-items{
+.foodtop{
     display: flex;
 }
 
+.happy{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
 
-.fastfood{
-    float: right;
+.food{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
 
 .drinks{
     float: left;
-}
-
-p.customers{
-    display: flex;
-    justify-content: center;
-    margin: 20px 80px 20px 80px;
-    
-    
 }
 
 footer{
@@ -88,16 +94,42 @@ footer{
     color: white;
 }
 
-footer.email{
+.mailsub{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    margin: 0,0,0, 20px;
+}
+
+#your{
+    padding-right: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    font-size: larger;
+    border: 1px solid lightblue;
+    border-radius: 3px;
+}
+
+#scribe{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    font-size: larger;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 3px;
 }
 
 #socialmedia{
     background-color: #f15a29;
     color: white;
-    height: 100px;
+    height: 70px;
+    padding-top: 40px;
+}
+
+.socialmedia{
+    background-color: #f15a29;
 }
 
 #content-3{
@@ -106,11 +138,52 @@ footer.email{
     display: flex;
     justify-content:center;
 }
-#sub{
+.sub{
     font-size: xx-large;
+    padding-top: 90px;
 }
 
 #copyright{
     color: white;
 
+}
+
+#menu{
+    width:35px;
+    height: 10px;
+    background-color: white;
+    margin: 8px 0;
+}
+
+#our{
+   padding: 0 60px 0 60px;
+   text-align: center;
+   background-color: white;
+}
+
+#about{
+    padding: 0 60px 0 100px;
+    margin-right: 50px;
+    text-align: center;
+    background-color: white;
+    border-left: 1px solid gray;
+
+}
+
+h1{
+    color: gray;
+}
+
+h2{
+    color: gray;
+}
+
+p{
+    color: gray;
+    font-weight: 540;
+    font-size: larger;
+}
+
+h4{
+    color: red;
 }
