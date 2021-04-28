@@ -3,11 +3,6 @@ body{
     width: 80%;
 }
 
-#content-1{
-    display: flex;
-    margin: 50px 250px 50px 250px;
-}
-
 #content-2{
     display: flex;
     margin: 50px 250px 50px 250px;
@@ -29,10 +24,6 @@ h3{
 
 #drinks{
     padding-right: 30px;
-}
-
-#fast{
-    padding-left: 30px;
 }
 
 a{
@@ -59,3 +50,25 @@ a{
     background-color: white;
     padding: 50px;
 }
+
+#fast{
+   padding: 20px 20px 0;
+   background-color: white;
+}
+
+#food{
+    padding: 0 20px 20px;
+    background-color: white;
+}
+
+#fastfood{
+    display: flex;
+    margin: 50px 250px 50px 250px;
+}
+
+#delicious{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right:50px
+}
+

@@ -63,7 +63,8 @@ header{
 }
 
 
-img.fastfood{
+.food{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -83,7 +84,7 @@ footer{
     color: white;
 }
 
-footer.email{
+.email{
     display: flex;
     justify-content: center;
     margin: 0,0,0, 20px;
@@ -101,8 +102,9 @@ footer.email{
     display: flex;
     justify-content:center;
 }
-#sub{
+.sub{
     font-size: xx-large;
+    padding-top: 90px;
 }
 
 #copyright{
