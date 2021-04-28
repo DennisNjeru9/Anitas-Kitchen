@@ -1,6 +1,7 @@
 body{
     margin: 20px auto 20px auto;
     width: 80%;
+    background-color: whitesmoke;
 }
 
 #content-2{
@@ -18,8 +19,9 @@ h3{
 }
 
 .customers{
-    display: inherit;
-    justify-content: space-around;
+    margin:50px 200px 50px;
+    display: flex;
+    justify-content: center;
 }
 
 #drinks{
@@ -27,6 +29,7 @@ h3{
 }
 
 a{
+    margin-top:10px;
     padding: 20px;
     background-color: white;
     color: red;
@@ -35,20 +38,22 @@ a{
 
 .chicken{
     margin-top: 100px;
+    margin-left: 120px;
     background-color: white;
-    padding: 50px;
+    padding: 50px 50px 50px 50px;
 }
 
 .beef{
     margin-top: 100px;
     background-color: white;
-    padding: 50px;
+    padding: 50px 50px 50px 60px; 
 }
 
 .pizza{
     margin-top: 100px;
+    margin-right: 140px;
     background-color: white;
-    padding: 50px;
+    padding: 50px 50px 50px 60px;
 }
 
 #fast{
@@ -72,3 +77,13 @@ a{
     padding-right:50px
 }
 
+#straw{
+    padding: 20px 0 20px 20px;
+    background-color: white;
+}
+.straw{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}

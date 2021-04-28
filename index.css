@@ -119,9 +119,17 @@ div.menu{
     margin: 6px 0;
 }
 
-.our, .about{
-    border: 3px solid black;
-    margin:50px
+#our{
+   padding: 0 0 0 60px;
+   text-align: center;
+   background-color: white;
+}
+
+#about{
+    padding: 0 60px 0 120px;
+    text-align: center;
+    background-color: white;
+
 }
 
 h1{
@@ -136,4 +144,8 @@ p{
     color: gray;
     font-weight: 540;
     font-size: larger;
+}
+
+h4{
+    color: red;
 }
